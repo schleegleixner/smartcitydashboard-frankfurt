@@ -1,0 +1,5 @@
+export { default as IconBarrierefreiheit } from './IconBarrierefreiheit'
+export { default as MsKlimadashboardIconsNaviDownload } from './MsKlimadashboardIconsNaviDownload'
+export { default as MsKlimadashboardIconsNaviKachelImplementieren } from './MsKlimadashboardIconsNaviKachelImplementieren'
+export { default as MsKlimadashboardIconsNaviTeilen } from './MsKlimadashboardIconsNaviTeilen'
+export { default as MsKlimadashboardIconsNaviInfoI } from './MsKlimadashboardIconsNaviInfoI'
