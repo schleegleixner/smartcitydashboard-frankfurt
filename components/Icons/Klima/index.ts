@@ -1,0 +1,5 @@
+export { default as MsKlimadashboardIconsKlimakenntageEis } from './MsKlimadashboardIconsKlimakenntageEis'
+export { default as MsKlimadashboardIconsKlimakenntageFrost } from './MsKlimadashboardIconsKlimakenntageFrost'
+export { default as MsKlimadashboardIconsKlimakenntageHeiss } from './MsKlimadashboardIconsKlimakenntageHeiss'
+export { default as MsKlimadashboardIconsKlimakenntageSommer } from './MsKlimadashboardIconsKlimakenntageSommer'
+export { default as MsKlimadashboardIconsKlimakenntageTropennacht } from './MsKlimadashboardIconsKlimakenntageTropennacht'

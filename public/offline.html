@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Offline</title>
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root {
+      --brand: #173356;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      background: #fff;
+      color: var(--brand);
+      font-family:
+        system-ui,
+        -apple-system,
+        Segoe UI,
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: 28rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .icon {
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 9999px;
+      background: #fef3c7;
+      color: #d97706;
+
+      svg {
+        width: 70%;
+        height: 70%;
+      }
+    }
+
+    h1 {
+      font-size: 1.25rem;
+      margin: 0 0 0.5rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: rgba(23, 51, 86, 0.7);
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+      border-radius: 9999px;
+      background: var(--brand);
+      color: #fff;
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 0.625rem 1.5rem;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" stroke="currentColor">
+        <path
+          d="M93.72 183.25C49.49 198.05 16 233.1 16 288c0 66 54 112 120 112h184.37M467.82 377.74C485.24 363.3 496 341.61 496 312c0-59.82-53-85.76-96-88-8.89-89.54-71-144-144-144-26.16 0-48.79 6.93-67.6 18.14"
+          style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" />
+        <path d="M448 448 64 64"
+          style="fill:none;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+      </svg>
+    </div>
+    <div>
+      <h1>Keine Internetverbindung</h1>
+      <p>
+        Sie sind offline. Bereits besuchte Seiten werden weiterhin mit dem zuletzt geladenen Datenstand angezeigt. Sobald Sie wieder online sind, werden die Inhalte aktualisiert.
+      </p>
+    </div>
+    <button type="button" onclick="location.reload()">
+      Erneut versuchen
+    </button>
+  </main>
+</body>
+</html>
